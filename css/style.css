@@ -1,0 +1,66 @@
+body{
+ background-image: url("https://law-review.sumdu.edu.ua/wp-content/uploads/2016/04/Simple-Blue-Background.jpg");  
+  background-repeat: no-repeat;
+  width: 100%;
+  box-sizing: border-box;
+ }
+
+form{
+  border: 10px solid #0A98D6;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+   margin-top: 150px;
+
+  background-color: #3A469C;
+}
+  input{
+    width: 400px;
+    padding: 10px;
+    margin: 12px;
+    background-color: #3A469C;
+    border: none;
+    border-bottom: 2px solid rgb(2, 168, 245);
+    color: rgb(0, 179, 255);
+    font-weight: inherit;
+    font-size: large;
+  }
+
+  h1{
+    color: aliceblue;
+    font-family:Arial, sans-serif ;
+    text-transform: uppercase;
+    padding-top: 25px;
+   }
+
+   P{
+     color:rgb(217, 222, 225);
+     padding-left: 23px;
+     padding-right: 23px;
+   }
+
+   button{
+    border: 2px solid white;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    background-color:#3A469C;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+   }
+
+   @media (max-width: 668px){
+    form{
+       
+      width: 350px;
+      height: 500px;
+     
+    }
+
+    input{
+      width: 300px;
+    }
+
+
+   }
